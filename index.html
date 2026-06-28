@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Douaa Ghezali | Graduate Software Engineer</title>
+    <meta
+      name="description"
+      content="Douaa Ghezali is a First Class Computer Science graduate from the University of Birmingham building software across AI, data, backend systems and full-stack applications."
+    />
+    <meta property="og:title" content="Douaa Ghezali | Graduate Software Engineer" />
+    <meta
+      property="og:description"
+      content="First Class Computer Science graduate from the University of Birmingham building software across AI, data, backend systems and full-stack products."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./fyp-corneal-ulcer.png" />
+    <meta
+      property="og:image:alt"
+      content="Screenshot of Douaa Ghezali's corneal ulcer assessment application."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#080611" />
+    <script>
+      (() => {
+        let storedTheme = null;
+        try {
+          storedTheme = localStorage.getItem("portfolio-theme");
+        } catch (error) {
+          storedTheme = null;
+        }
+        const theme = storedTheme || "dark";
+        document.documentElement.classList.add("js");
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="page-shell">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <div class="ambient ambient-three" aria-hidden="true"></div>
+      <div class="grid-overlay" aria-hidden="true"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <strong class="brand-name">Douaa Ghezali</strong>
+        </a>
+
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch color theme"
+            aria-pressed="false"
+            title="Switch color theme"
+          >
+            <span class="theme-toggle-knob" aria-hidden="true"></span>
+            <span class="theme-toggle-copy">Theme</span>
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content">
+        <section class="hero section" id="top">
+          <div class="hero-copy" data-reveal>
+            <p class="intro-pill">
+              <span class="intro-pill-dot" aria-hidden="true"></span>
+              First Class BSc Computer Science • University of Birmingham
+            </p>
+            <p class="eyebrow">Graduate Software Engineer • AI • Data • Backend</p>
+            <h1>Douaa Ghezali</h1>
+            <p class="hero-title-line">
+              First Class Computer Science graduate building software across AI, data, backend systems and
+              full-stack products.
+            </p>
+            <p class="hero-lead">
+              I build practical technical projects across healthcare AI, computer vision, backend engineering,
+              and data-driven applications and I am actively seeking graduate opportunities where I can
+              contribute to thoughtful engineering and product teams.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="./DouaaGhezali_GraduateCV.pdf" download>Download CV</a>
+              <a class="button button-ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero-facts" aria-label="Quick profile highlights" data-reveal-group>
+              <article data-reveal>
+                <strong>First Class BSc</strong>
+                <span>Computer Science • University of Birmingham • 2026</span>
+              </article>
+              <article data-reveal>
+                <strong>Featured work</strong>
+                <span>AI-assisted corneal ulcer assessment application</span>
+              </article>
+              <article data-reveal>
+                <strong>Seeking</strong>
+                <span>Graduate software, AI and data roles</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true" data-reveal-group>
+            <div class="hero-glow"></div>
+            <div class="sparkle-cluster">
+              <span class="sparkle sparkle-one"></span>
+              <span class="sparkle sparkle-two"></span>
+              <span class="sparkle sparkle-three"></span>
+              <span class="sparkle sparkle-four"></span>
+              <span class="sparkle sparkle-five"></span>
+              <span class="sparkle sparkle-six"></span>
+            </div>
+            <svg class="hero-orbit" viewBox="0 0 620 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M90 110C145 42 304 20 446 66C572 108 610 212 544 274C471 344 284 365 153 325C55 295 29 197 90 110Z" />
+            </svg>
+
+            <div class="hero-preview panel-card" data-reveal>
+              <div class="preview-topbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <img
+                src="./fyp-corneal-ulcer.png"
+                alt="Preview of Douaa Ghezali's university corneal ulcer assessment application interface."
+                width="2880"
+                height="1800"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+
+            <div class="floating-chip floating-chip-top" data-reveal>
+              <p class="card-label">Featured Build</p>
+              <p>Corneal ulcer assessment app with image segmentation and clinical workflow support.</p>
+            </div>
+
+            <div class="floating-chip floating-chip-bottom" data-reveal>
+              <p class="card-label">Core Stack</p>
+              <div class="hero-tech-badges" aria-label="Featured project technologies">
+                <span>Clinical AI</span>
+                <span>Image Segmentation</span>
+                <span>TensorFlow</span>
+                <span>FastAPI</span>
+                <span>React</span>
+                <span>OpenCV</span>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section recruiter-strip" aria-label="Recruiter summary">
+          <div class="summary-card" data-reveal>
+            <p class="summary-kicker">Recruiter Snapshot</p>
+            <div class="summary-grid">
+              <div>
+                <span class="summary-label">Degree</span>
+                <p>First Class BSc Computer Science</p>
+              </div>
+              <div>
+                <span class="summary-label">University</span>
+                <p>University of Birmingham</p>
+              </div>
+              <div>
+                <span class="summary-label">Graduated</span>
+                <p>2026</p>
+              </div>
+              <div>
+                <span class="summary-label">Seeking</span>
+                <p>Graduate software engineering, AI and data roles</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">About Me</p>
+            <h2>Technical range with practical product judgement.</h2>
+            <p class="section-intro">
+              I enjoy turning ambitious ideas into clear, usable software with thoughtful engineering decisions and real-world constraints in mind.
+            </p>
+          </div>
+
+          <div class="split-layout" data-reveal-group>
+            <article class="panel-card" data-reveal>
+              <h3>What I bring</h3>
+              <ul class="feature-list">
+                <li>Hands-on experience across AI, computer vision, backend systems, APIs and full-stack development</li>
+                <li>Built an AI-assisted university project with measurement logic, privacy controls and a full React and FastAPI workflow</li>
+                <li>Strong grounding in algorithms, software engineering, machine learning and data science through applied projects</li>
+                <li>Comfortable explaining technical ideas clearly through tutoring, demonstrations and collaborative project work</li>
+              </ul>
+            </article>
+
+            <article class="panel-card accent-card" data-reveal>
+              <p class="card-label">Professional Profile</p>
+              <ul class="feature-list feature-list-compact">
+                <li>Thoughtful and detail-oriented</li>
+                <li>Collaborative and reliable</li>
+                <li>Motivated by meaningful technical ownership</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Technical Skills</p>
+            <h2>Core skills at a glance.</h2>
+          </div>
+
+          <div class="skills-layout" data-reveal-group>
+            <article class="skill-group panel-card" data-reveal>
+              <h3>Languages</h3>
+              <div class="skill-badges">
+                <span>Java</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+              </div>
+            </article>
+
+            <article class="skill-group panel-card" data-reveal>
+              <h3>AI, Data &amp; Analysis</h3>
+              <div class="skill-badges">
+                <span>Machine Learning</span>
+                <span>TensorFlow/Keras</span>
+                <span>PyTorch</span>
+                <span>OpenCV</span>
+                <span>TensorFlow Lite</span>
+                <span>NumPy</span>
+                <span>Data Analysis</span>
+                <span>Jupyter Notebooks</span>
+                <span>Google Colab</span>
+              </div>
+            </article>
+
+            <article class="skill-group panel-card" data-reveal>
+              <h3>Backend &amp; Product Engineering</h3>
+              <div class="skill-badges">
+                <span>FastAPI</span>
+                <span>React</span>
+                <span>Spring Boot</span>
+                <span>REST APIs</span>
+                <span>JPA</span>
+                <span>MySQL</span>
+                <span>SQLAlchemy</span>
+                <span>SQLite</span>
+                <span>Full-Stack Development</span>
+              </div>
+            </article>
+
+            <article class="skill-group panel-card" data-reveal>
+              <h3>Tools &amp; Collaboration</h3>
+              <div class="skill-badges">
+                <span>Git</span>
+                <span>IntelliJ</span>
+                <span>Visual Studio Code</span>
+                <span>Streamlit</span>
+                <span>Cyber Security</span>
+                <span>Team Collaboration</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Featured Projects</p>
+            <h2>Selected projects.</h2>
+            <p class="section-intro">
+              A focused mix of AI, backend, robotics and full-stack work completed through university projects and applied technical experience.
+            </p>
+          </div>
+
+          <div class="projects-grid" data-reveal-group>
+            <article class="project-card project-card-featured" data-reveal>
+              <div class="project-topline">
+                <p class="project-kicker">Final Year Project • AI + Full-Stack Health Tech</p>
+                <p class="project-meta">2025 - 2026</p>
+              </div>
+              <h3>Corneal Ulcer Monitoring App</h3>
+              <p class="project-problem">
+                Built an AI-assisted university project for analysing slit-lamp photographs, measuring corneal ulcers and tracking progression over time.
+              </p>
+              <figure class="project-media">
+                <img
+                  src="./fyp-corneal-ulcer.png"
+                  alt="Screenshot of the corneal ulcer assessment application showing automated image analysis workflow."
+                  width="2880"
+                  height="1800"
+                  decoding="async"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="tech-badges" aria-label="Tech stack">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>React</span>
+                <span>TensorFlow/Keras</span>
+                <span>PyTorch</span>
+                <span>OpenCV</span>
+                <span>SQLite</span>
+                <span>LLM Reporting</span>
+              </div>
+              <ul class="project-points">
+                <li>Built dual-modality segmentation for fluorescein and white-light images</li>
+                <li>Added calibrated measurements, longitudinal tracking, audit logging and privacy-first storage</li>
+                <li>Migrated the prototype from Streamlit to React + FastAPI</li>
+                <li>Developed the work with clinical guidance from a consultant ophthalmologist</li>
+              </ul>
+              <p class="project-impact">
+                <strong>Impact:</strong> Delivered a proof-of-concept application with a 0.706 mean Dice score on a held-out fluorescein segmentation test set.
+              </p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/douaa1234/CornealUlcerAssessmentApp" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a class="project-link" href="https://youtu.be/xKd9gxOVXlw" target="_blank" rel="noreferrer">Video Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-topline">
+                <p class="project-kicker">Robotics + AI</p>
+                <p class="project-meta">Sep 2024 - Dec 2024</p>
+              </div>
+              <h3>Object Detection Model on Spot Robot</h3>
+              <p class="project-problem">
+                Built a robotics workflow that combined object detection with voice-triggered interaction on the Spot robot.
+              </p>
+              <div class="tech-badges" aria-label="Tech stack">
+                <span>TensorFlow Lite</span>
+                <span>SSD-MobileNet</span>
+                <span>Object Detection</span>
+                <span>Voice Recognition</span>
+                <span>Robotics</span>
+              </div>
+              <ul class="project-points">
+                <li>Developed the detection model and supported end-to-end system design and testing</li>
+                <li>Integrated spoken keyword recognition to trigger object detection behaviour</li>
+                <li>Helped ensure smooth interaction between voice input, detection output and robotic movement</li>
+              </ul>
+              <p class="project-impact"><strong>Impact:</strong> Achieved 74% mAP across multiple IoU thresholds.</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/douaa1234/Object-Detection-on-Spot-Robot" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a class="project-link" href="mailto:douaaghezali17@gmail.com?subject=Object%20Detection%20Project%20Walkthrough">Request Walkthrough</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-topline">
+                <p class="project-kicker">Full-Stack Product</p>
+                <p class="project-meta">Sep 2024 - Dec 2024</p>
+              </div>
+              <h3>UoBuy Student Marketplace</h3>
+              <p class="project-problem">
+                Built a full-stack student marketplace with listings, chat, orders and accessibility features.
+              </p>
+              <div class="tech-badges" aria-label="Tech stack">
+                <span>Full-Stack</span>
+                <span>CRUD</span>
+                <span>Accessibility</span>
+                <span>Team Project</span>
+              </div>
+              <ul class="project-points">
+                <li>Led the review entity work including CRUD operations and reporting workflows</li>
+                <li>Integrated reviews securely with product and order components</li>
+                <li>Supported a product with listings, chat, orders and accessibility considerations</li>
+              </ul>
+              <p class="project-impact"><strong>Impact:</strong> Strengthened trust and moderation support inside the marketplace experience.</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/douaa1234" target="_blank" rel="noreferrer">GitHub Profile</a>
+                <a class="project-link" href="mailto:douaaghezali17@gmail.com?subject=UoBuy%20Project%20Walkthrough">Request Walkthrough</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-topline">
+                <p class="project-kicker">Computer Vision</p>
+                <p class="project-meta">Sep 2024</p>
+              </div>
+              <h3>Emotion AI - Facial Keypoint Detection</h3>
+              <p class="project-problem">
+                Built a CNN to identify facial landmarks across varied image conditions.
+              </p>
+              <div class="tech-badges" aria-label="Tech stack">
+                <span>Python</span>
+                <span>CNN</span>
+                <span>Computer Vision</span>
+                <span>Data Augmentation</span>
+              </div>
+              <ul class="project-points">
+                <li>Detected landmarks including eyes, nose and lips for advanced facial analysis</li>
+                <li>Improved model robustness with brightness, flip and rotation augmentation</li>
+              </ul>
+              <p class="project-impact"><strong>Impact:</strong> Improved generalisation across a diverse facial image dataset.</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/douaa1234/EmotionAI-Facial-Key-Points-Detector" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a class="project-link" href="mailto:douaaghezali17@gmail.com?subject=Emotion%20AI%20Project%20Details">Ask for Details</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-topline">
+                <p class="project-kicker">Backend Engineering</p>
+                <p class="project-meta">Oct 2025 - Dec 2025</p>
+              </div>
+              <h3>Shared Grocery Delivery Orders App</h3>
+              <p class="project-problem">
+                Developed the Spring Boot backend for a shared grocery cart system for student households.
+              </p>
+              <div class="tech-badges" aria-label="Tech stack">
+                <span>Spring Boot</span>
+                <span>REST APIs</span>
+                <span>JPA</span>
+                <span>MySQL</span>
+                <span>Email Notifications</span>
+              </div>
+              <ul class="project-points">
+                <li>Designed RESTful APIs for authentication, cart management and shared order participation</li>
+                <li>Built JPA and MySQL data models for reliable storage and efficient handling</li>
+                <li>Added email notifications and checkout logic for individual contributions and total shared cost</li>
+              </ul>
+              <p class="project-impact"><strong>Impact:</strong> Improved visibility and coordination for shared household orders.</p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/douaa1234" target="_blank" rel="noreferrer">GitHub Profile</a>
+                <a class="project-link" href="mailto:douaaghezali17@gmail.com?subject=Shared%20Grocery%20App%20Details">Ask for Details</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal>
+              <div class="project-topline">
+                <p class="project-kicker">Machine Learning</p>
+                <p class="project-meta">Sep 2024</p>
+              </div>
+              <h3>Breast Cancer Prediction Using Machine Learning</h3>
+              <p class="project-problem">
+                Built a machine learning workflow to classify breast cancer outcomes from structured medical data.
+              </p>
+              <div class="tech-badges" aria-label="Tech stack">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Classification</span>
+                <span>Data Analysis</span>
+                <span>Healthcare Data</span>
+              </div>
+              <ul class="project-points">
+                <li>Prepared and analysed structured medical data to support model training and evaluation</li>
+                <li>Built a clear end-to-end classification pipeline for a healthcare use case</li>
+                <li>Explored how predictive modelling can support more informed clinical decision-making</li>
+              </ul>
+              <p class="project-impact">
+                <strong>Impact:</strong> Demonstrated practical machine learning workflow design for a meaningful healthcare use case.
+              </p>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/douaa1234/Breast-Cancer-Prediction-" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a class="project-link" href="mailto:douaaghezali17@gmail.com?subject=Breast%20Cancer%20Prediction%20Project">Ask for Details</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Experience &amp; Internships</p>
+            <h2>Experience and internships.</h2>
+          </div>
+
+          <div class="timeline-grid" data-reveal-group>
+            <article class="timeline-item panel-card" data-reveal>
+              <div class="timeline-topline">
+                <div>
+                  <p class="timeline-role">Technology Development Part Time</p>
+                  <p class="timeline-org">Gravilog</p>
+                </div>
+                <p class="timeline-date">Jan 2025 - Present</p>
+              </div>
+              <ul class="feature-list feature-list-compact">
+                <li>Designed and implemented a machine learning model to classify foetal health from foetal ECG signals</li>
+                <li>Pre-processed foetal ECG data, applied feature engineering and tuned hyperparameters to improve performance</li>
+                <li>Achieved 97% overall accuracy using deep learning techniques</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item panel-card" data-reveal>
+              <div class="timeline-topline">
+                <div>
+                  <p class="timeline-role">Peer &amp; Youth Tutor</p>
+                  <p class="timeline-org">University of Birmingham</p>
+                </div>
+                <p class="timeline-date">Nov 2023 - Nov 2025</p>
+              </div>
+              <ul class="feature-list feature-list-compact">
+                <li>Mentored university peers and A-level students in computer science and mathematics</li>
+                <li>Adapted teaching materials and support to individual requirements</li>
+                <li>Built strong relationships with students through a supportive and inclusive teaching style</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item panel-card" data-reveal>
+              <div class="timeline-topline">
+                <div>
+                  <p class="timeline-role">Cyber Security Placement</p>
+                  <p class="timeline-org">Kingston University, London</p>
+                </div>
+                <p class="timeline-date">Aug 2022</p>
+              </div>
+              <ul class="feature-list feature-list-compact">
+                <li>Explored threat detection, vulnerability assessment and network security fundamentals</li>
+                <li>Completed practical labs covering real-world attack scenarios and system weaknesses</li>
+                <li>Practised reverse engineering using binary analysis, patching challenges and IDA</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item panel-card" data-reveal>
+              <div class="timeline-topline">
+                <div>
+                  <p class="timeline-role">Web Development Virtual Work Placement</p>
+                  <p class="timeline-org">Vodafone, Remote</p>
+                </div>
+                <p class="timeline-date">Feb 2022</p>
+              </div>
+              <ul class="feature-list feature-list-compact">
+                <li>Built practical web development skills with HTML, CSS and JavaScript</li>
+                <li>Designed and created a functional website demonstrating clear front-end structure and full-stack awareness</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section education-section" id="education">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Education</p>
+            <h2>Education and technical foundation.</h2>
+          </div>
+
+          <div class="education-grid" data-reveal-group>
+            <article class="panel-card" data-reveal>
+              <div class="timeline-topline">
+                <div>
+                  <p class="timeline-role">First Class BSc Computer Science</p>
+                  <p class="timeline-org">University of Birmingham</p>
+                </div>
+                <p class="timeline-date">Graduated 2026</p>
+              </div>
+              <ul class="feature-list feature-list-compact">
+                <li>Concentrations in Artificial Intelligence and Computer Programming</li>
+                <li>Modules included Data Structures &amp; Algorithms, Full Stack Application Development, Computer Programming, Machine Learning, Artificial Intelligence, Object-Oriented Programming, Software Engineering and Professional Practice, Data Science and Operating Systems and Systems Programming</li>
+              </ul>
+            </article>
+
+            <article class="panel-card" data-reveal>
+              <p class="card-label">Coursework Strengths</p>
+              <div class="skill-badges">
+                <span>Algorithms</span>
+                <span>Object-Oriented Programming</span>
+                <span>Software Engineering</span>
+                <span>Machine Learning</span>
+                <span>Data Science</span>
+                <span>Systems Programming</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="achievements">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Certifications &amp; Achievements</p>
+            <h2>Achievements beyond coursework.</h2>
+          </div>
+
+          <div class="achievement-grid" data-reveal-group>
+            <article class="panel-card accent-card" data-reveal>
+              <p class="card-label">Recognition</p>
+              <h3>Metric Capital Scholarship</h3>
+              <p>Recipient of the Metric Capital Scholarship, awarded in recognition of outstanding academic achievement and potential.</p>
+            </article>
+
+            <article class="panel-card" data-reveal>
+              <h3>Clinically Advised Research Project</h3>
+              <p class="timeline-org">Final-year university project with consultant ophthalmology input</p>
+              <p>
+                Built a proof-of-concept AI application with image analysis, evaluation results and privacy safeguards.
+              </p>
+            </article>
+
+            <article class="panel-card" data-reveal>
+              <h3>Robotics Society</h3>
+              <p class="timeline-org">University of Birmingham • Sep 2023 - Sep 2024</p>
+              <p>Contributed as an active member within a collaborative technical team environment.</p>
+            </article>
+
+            <article class="panel-card" data-reveal>
+              <h3>Project Demonstrator</h3>
+              <p class="timeline-org">University of Birmingham Open Day</p>
+              <p>Presented project work and explained technical concepts to visitors and prospective students.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="contact-shell">
+            <article class="contact-card" data-reveal>
+              <div class="contact-layout">
+                <div>
+                  <p class="eyebrow">Contact</p>
+                  <h2>Actively seeking graduate software engineering, AI and data roles.</h2>
+                  <p class="section-intro">
+                    I am looking for graduate opportunities where I can contribute to strong engineering teams, useful products and thoughtful AI or data-driven systems.
+                  </p>
+
+                  <div class="contact-details" aria-label="Contact details">
+                    <a href="mailto:douaaghezali17@gmail.com">douaaghezali17@gmail.com</a>
+                    <a href="tel:07432609524">07432 609524</a>
+                    <a href="https://github.com/douaa1234" target="_blank" rel="noreferrer">github.com/douaa1234</a>
+                    <p>LinkedIn profile available on request</p>
+                    <a href="./DouaaGhezali_GraduateCV.pdf" download>Download CV</a>
+                  </div>
+
+                  <div class="hero-actions">
+                    <a class="button button-primary" href="mailto:douaaghezali17@gmail.com?subject=Graduate%20Opportunity">Email Me</a>
+                    <a class="button button-secondary" href="./DouaaGhezali_GraduateCV.pdf" download>Download CV</a>
+                  </div>
+                </div>
+
+                <aside class="contact-side panel-card" aria-label="Hiring snapshot">
+                  <p class="card-label">Hiring Snapshot</p>
+                  <ul class="feature-list feature-list-compact">
+                    <li>First Class Computer Science graduate from the University of Birmingham</li>
+                    <li>Interested in backend, AI, data-driven and product-focused engineering work</li>
+                    <li>Brings hands-on project delivery and clear technical communication</li>
+                  </ul>
+                </aside>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
