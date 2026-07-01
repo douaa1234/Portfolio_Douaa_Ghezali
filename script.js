@@ -45,7 +45,7 @@ themeToggle?.addEventListener("click", () => {
   applyTheme(nextTheme);
 });
 
-applyTheme(root.dataset.theme || getStoredTheme() || "dark");
+applyTheme(root.dataset.theme || getStoredTheme() || "light");
 
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
